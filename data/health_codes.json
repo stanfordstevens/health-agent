@@ -1,0 +1,347 @@
+[
+  {
+    "code": "41113",
+    "type": "CPT",
+    "description": "Excision of lesion of floor of mouth"
+  },
+  {
+    "code": "10060",
+    "type": "CPT",
+    "description": "Incision and drainage of abscess, simple"
+  },
+  {
+    "code": "20020",
+    "type": "CPT",
+    "description": "Excision of cyst from soft tissue"
+  },
+  {
+    "code": "83036",
+    "type": "CPT",
+    "description": "Hemoglobin A1c test"
+  },
+  {
+    "code": "60220",
+    "type": "CPT",
+    "description": "Thyroid lobectomy"
+  },
+  {
+    "code": "50543",
+    "type": "CPT",
+    "description": "Percutaneous nephrostolithotomy"
+  },
+  {
+    "code": "50010",
+    "type": "CPT",
+    "description": "Renal angiography surgery"
+  },
+  {
+    "code": "31231",
+    "type": "CPT",
+    "description": "Diagnostic nasal endoscopy"
+  },
+  {
+    "code": "20010",
+    "type": "CPT",
+    "description": "Drainage of seroma"
+  },
+  {
+    "code": "31256",
+    "type": "CPT",
+    "description": "Surgical sinus endoscopy with antrostomy"
+  },
+  {
+    "code": "60500",
+    "type": "CPT",
+    "description": "Parathyroidectomy"
+  },
+  {
+    "code": "73110",
+    "type": "CPT",
+    "description": "X-ray of wrist, 3 views"
+  },
+  {
+    "code": "40804",
+    "type": "CPT",
+    "description": "Excision of oral mucocele"
+  },
+  {
+    "code": "52000",
+    "type": "CPT",
+    "description": "Cystourethroscopy"
+  },
+  {
+    "code": "50430",
+    "type": "CPT",
+    "description": "Retrograde pyelography"
+  },
+  {
+    "code": "99381",
+    "type": "CPT",
+    "description": "Preventive visit, new patient"
+  },
+  {
+    "code": "80053",
+    "type": "CPT",
+    "description": "Comprehensive metabolic panel"
+  },
+  {
+    "code": "30110",
+    "type": "CPT",
+    "description": "Removal of nasal polyps"
+  },
+  {
+    "code": "70551",
+    "type": "CPT",
+    "description": "MRI of brain without contrast"
+  },
+  {
+    "code": "99223",
+    "type": "CPT",
+    "description": "Initial hospital care, comprehensive"
+  },
+  {
+    "code": "40820",
+    "type": "CPT",
+    "description": "Sialolithotomy, incision into duct"
+  },
+  {
+    "code": "99213",
+    "type": "CPT",
+    "description": "Established patient office visit"
+  },
+  {
+    "code": "50200",
+    "type": "CPT",
+    "description": "Renal biopsy"
+  },
+  {
+    "code": "00524",
+    "type": "CPT",
+    "description": "Anesthesia for intrathoracic procedure"
+  },
+  {
+    "code": "20005",
+    "type": "CPT",
+    "description": "I&D of soft tissue abscess, superficial"
+  },
+  {
+    "code": "41115",
+    "type": "CPT",
+    "description": "Marsupialization of ranula"
+  },
+  {
+    "code": "00144",
+    "type": "CPT",
+    "description": "Anesthesia for inguinal hernia repair"
+  },
+  {
+    "code": "76805",
+    "type": "CPT",
+    "description": "Routine fetal ultrasound, second trimester"
+  },
+  {
+    "code": "30903",
+    "type": "CPT",
+    "description": "Control of posterior nasal hemorrhage"
+  },
+  {
+    "code": "71260",
+    "type": "CPT",
+    "description": "CT chest with contrast"
+  },
+  {
+    "code": "90832",
+    "type": "CPT",
+    "description": "Psychotherapy, 30 minutes"
+  },
+  {
+    "code": "45378",
+    "type": "CPT",
+    "description": "Diagnostic colonoscopy"
+  },
+  {
+    "code": "66984",
+    "type": "CPT",
+    "description": "Cataract surgery with lens insertion"
+  },
+  {
+    "code": "85025",
+    "type": "CPT",
+    "description": "CBC with differential"
+  },
+  {
+    "code": "00860",
+    "type": "CPT",
+    "description": "Anesthesia for obstetric ultrasound"
+  },
+  {
+    "code": "10080",
+    "type": "CPT",
+    "description": "I&D of pilonidal cyst, simple"
+  },
+  {
+    "code": "94010",
+    "type": "CPT",
+    "description": "Simple pulmonary function test"
+  },
+  {
+    "code": "20100",
+    "type": "CPT",
+    "description": "I&D of deep abscess or hematoma"
+  },
+  {
+    "code": "10040",
+    "type": "CPT",
+    "description": "Acne surgery (wart/milia removal)"
+  },
+  {
+    "code": "60101",
+    "type": "CPT",
+    "description": "Thyroid core needle biopsy"
+  },
+  {
+    "code": "01400",
+    "type": "CPT",
+    "description": "Anesthesia for knee surgery"
+  },
+  {
+    "code": "11104",
+    "type": "CPT",
+    "description": "Punch biopsy of skin"
+  },
+  {
+    "code": "11100",
+    "type": "CPT",
+    "description": "Biopsy of skin or mucosa, single lesion"
+  },
+  {
+    "code": "11200",
+    "type": "CPT",
+    "description": "Removal of skin tags, up to 15"
+  },
+  {
+    "code": "30901",
+    "type": "CPT",
+    "description": "Control nasal hemorrhage, anterior"
+  },
+  {
+    "code": "41105",
+    "type": "CPT",
+    "description": "Biopsy of oral mucosa"
+  },
+  {
+    "code": "93620",
+    "type": "CPT",
+    "description": "Electrophysiologic study, comprehensive"
+  },
+  {
+    "code": "10120",
+    "type": "CPT",
+    "description": "Removal of foreign body, subcutaneous"
+  },
+  {
+    "code": "51600",
+    "type": "CPT",
+    "description": "Cystography"
+  },
+  {
+    "code": "41110",
+    "type": "CPT",
+    "description": "Excision of oral lesion without closure"
+  },
+  {
+    "code": "60100",
+    "type": "CPT",
+    "description": "Fine needle aspiration, thyroid"
+  },
+  {
+    "code": "60240",
+    "type": "CPT",
+    "description": "Total thyroidectomy"
+  },
+  {
+    "code": "30520",
+    "type": "CPT",
+    "description": "Septoplasty"
+  },
+  {
+    "code": "I10",
+    "type": "ICD-10-CM",
+    "description": "Essential (primary) hypertension"
+  },
+  {
+    "code": "A90",
+    "type": "ICD-10-CM",
+    "description": "Dengue fever"
+  },
+  {
+    "code": "M17.1",
+    "type": "ICD-10-CM",
+    "description": "Bilateral primary osteoarthritis of knee"
+  },
+  {
+    "code": "J01.11",
+    "type": "ICD-10-CM",
+    "description": "Acute frontal sinusitis due to Streptococcus pneumoniae"
+  },
+  {
+    "code": "N80.0",
+    "type": "ICD-10-CM",
+    "description": "Endometriosis of uterus"
+  },
+  {
+    "code": "E10.9",
+    "type": "ICD-10-CM",
+    "description": "Type 1 diabetes mellitus without complications"
+  },
+  {
+    "code": "G43.009",
+    "type": "ICD-10-CM",
+    "description": "Migraine without aura, not intractable"
+  },
+  {
+    "code": "D50.0",
+    "type": "ICD-10-CM",
+    "description": "Iron deficiency anemia secondary to blood loss"
+  },
+  {
+    "code": "L20.82",
+    "type": "ICD-10-CM",
+    "description": "Atopic dermatitis of hands"
+  },
+  {
+    "code": "K0001",
+    "type": "HCPCS",
+    "description": "Standard manual wheelchair"
+  },
+  {
+    "code": "A4465",
+    "type": "HCPCS",
+    "description": "Therapeutic elastic band"
+  },
+  {
+    "code": "J1040",
+    "type": "HCPCS",
+    "description": "Injection, methylprednisolone acetate, 80 mg"
+  },
+  {
+    "code": "E0601",
+    "type": "HCPCS",
+    "description": "CPAP device"
+  },
+  {
+    "code": "J0585",
+    "type": "HCPCS",
+    "description": "Injection, Botox (onabotulinumtoxinA), per unit"
+  },
+  {
+    "code": "J1745",
+    "type": "HCPCS",
+    "description": "Injection, infliximab (Remicade), 10 mg"
+  },
+  {
+    "code": "L5637",
+    "type": "HCPCS",
+    "description": "Below-knee artificial limb socket insert"
+  }
+]
