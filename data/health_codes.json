@@ -5,11 +5,6 @@
     "description": "Excision of lesion of floor of mouth"
   },
   {
-    "code": "10060",
-    "type": "CPT",
-    "description": "Incision and drainage of abscess, simple"
-  },
-  {
     "code": "20020",
     "type": "CPT",
     "description": "Excision of cyst from soft tissue"
@@ -22,7 +17,7 @@
   {
     "code": "60220",
     "type": "CPT",
-    "description": "Thyroid lobectomy"
+    "description": "Total thyroid lobectomy, unilateral, with or without isthmusectomy."
   },
   {
     "code": "50543",
@@ -32,7 +27,7 @@
   {
     "code": "50010",
     "type": "CPT",
-    "description": "Renal exploration, not necessitating other specific procedures"
+    "description": "Renal exploration, not necessitating other specific procedures, for diagnostic reasons."
   },
   {
     "code": "31231",
@@ -77,7 +72,7 @@
   {
     "code": "99202",
     "type": "CPT",
-    "description": "Preventive visit, new patient"
+    "description": "An office or other outpatient visit for the evaluation and management of a new patient, with brief medical history intake, and/or the total time spent on the encounter is between 15 and 29 minutes."
   },
   {
     "code": "80053",
@@ -97,7 +92,22 @@
   {
     "code": "99223",
     "type": "CPT",
-    "description": "Initial hospital care, comprehensive"
+    "description": "Comprehensive level of history-taking and examination for patients in hospitals"
+  },
+  {
+    "code": "99221",
+    "type": "CPT",
+    "description": "Detailed level of history-taking and examination for patients in hospitals"
+  },
+  {
+    "code": "99222",
+    "type": "CPT",
+    "description": "Expanded, problem-focused level of history-taking and examination for patients in hospitals"
+  },
+  {
+    "code": "99220",
+    "type": "CPT",
+    "description": "Observation or inpatient hospital care"
   },
   {
     "code": "40820",
@@ -122,7 +132,7 @@
   {
     "code": "20002",
     "type": "CPT",
-    "description": "I&D of soft tissue abscess, superficial"
+    "description": "Incision and drainage of an abscess, superficial"
   },
   {
     "code": "41115",
@@ -177,7 +187,7 @@
   {
     "code": "10080",
     "type": "CPT",
-    "description": "I&D of pilonidal cyst, simple"
+    "description": "Incision and drainage of an abscess"
   },
   {
     "code": "94010",
@@ -187,7 +197,7 @@
   {
     "code": "20100",
     "type": "CPT",
-    "description": "I&D of deep abscess or hematoma"
+    "description": "Incision and drainage; deep abscess or hematoma, soft tissues of back, shoulder or flank"
   },
   {
     "code": "10040",
@@ -197,7 +207,7 @@
   {
     "code": "60101",
     "type": "CPT",
-    "description": "Thyroid core needle biopsy"
+    "description": "A core needle biopsy of the thyroid."
   },
   {
     "code": "01400",
@@ -252,7 +262,7 @@
   {
     "code": "60100",
     "type": "CPT",
-    "description": "Fine needle aspiration, thyroid"
+    "description": "Fine needle aspiration biopsy for the thyroid"
   },
   {
     "code": "60210",
@@ -287,7 +297,22 @@
   {
     "code": "N80.0",
     "type": "ICD-10-CM",
-    "description": "Endometriosis of uterus"
+    "description": "Mild endometriosis"
+  },
+  {
+    "code": "N80.1",
+    "type": "ICD-10-CM",
+    "description": "Endometriosis of the ovary"
+  },
+  {
+    "code": "N80.2",
+    "type": "ICD-10-CM",
+    "description": "Endometriosis of the fallopian tube"
+  },
+  {
+    "code": "N80.3",
+    "type": "ICD-10-CM",
+    "description": "Endometriosis of the pelvic peritoneum"
   },
   {
     "code": "E10.9",
@@ -352,6 +377,26 @@
   {
     "code": "99201",
     "type": "CPT",
-    "description": "New patient office visits, representing a problem-focused history and examination with straightforward medical decision making"
+    "description": "Problem-focused history and examination for routine checkups or new patients in an office or outpatient setting"
   },
+  {
+    "code": "60240",
+    "type": "CPT",
+    "description": "Total or complete thyroidectomy"
+  },
+  {
+    "code": "99381",
+    "type": "CPT",
+    "description": "Comprehensive preventive medicine evaluation and management for new patients"
+  },
+  {
+    "code": "20005",
+    "type": "CPT",
+    "description": "Incision and drainage of soft tissue abscess, leg or ankle; superficial"
+  },
+  {
+    "code": "99212",
+    "type": "CPT",
+    "description": "An office visit of an established patient, more detailed history taking"
+  }
 ]
