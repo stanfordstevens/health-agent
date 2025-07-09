@@ -35,6 +35,8 @@ Instructions:
 1. Match the question to the correct code.
 2. Eliminate incorrect options.
 3. Return only the correct letter and a brief explanation.
+4. For questions on health codes, choose the closest matching code out of the relevant codes in the “Relevant Codes” section.
+5. If none of the codes match, give no answer and the explanation that there are "No matching codes".
 
 Respond in this format:
 Answer: <LETTER>

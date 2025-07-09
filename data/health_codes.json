@@ -32,7 +32,7 @@
   {
     "code": "50010",
     "type": "CPT",
-    "description": "Renal angiography surgery"
+    "description": "Renal exploration, not necessitating other specific procedures"
   },
   {
     "code": "31231",
@@ -75,7 +75,7 @@
     "description": "Retrograde pyelography"
   },
   {
-    "code": "99381",
+    "code": "99202",
     "type": "CPT",
     "description": "Preventive visit, new patient"
   },
@@ -120,7 +120,7 @@
     "description": "Anesthesia for intrathoracic procedure"
   },
   {
-    "code": "20005",
+    "code": "20002",
     "type": "CPT",
     "description": "I&D of soft tissue abscess, superficial"
   },
@@ -255,9 +255,9 @@
     "description": "Fine needle aspiration, thyroid"
   },
   {
-    "code": "60240",
+    "code": "60210",
     "type": "CPT",
-    "description": "Total thyroidectomy"
+    "description": "Partial thyroid lobectomy"
   },
   {
     "code": "30520",
@@ -343,5 +343,15 @@
     "code": "L5637",
     "type": "HCPCS",
     "description": "Below-knee artificial limb socket insert"
-  }
+  },
+  {
+    "code": "82784",
+    "type": "CPT",
+    "description": "Laboratory testing of gammaglobulin (immunoglobulin) levels, specifically for IgA, IgD, IgG, and IgM"
+  },
+  {
+    "code": "99201",
+    "type": "CPT",
+    "description": "New patient office visits, representing a problem-focused history and examination with straightforward medical decision making"
+  },
 ]
