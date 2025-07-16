@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import dotenv from 'dotenv';
-import { retrieveRelevantCodes, EmbeddedHealthCode } from './retrieveRelevantCodes';
+import { retrieveRelevantCodesFromChoices } from './retrieveRelevantCodes';
 dotenv.config();
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -9,18 +9,21 @@ export async function runAgent(
   question: string,
   choices?: Record<string, string>
 ): Promise<string> {
-  const topCodes: EmbeddedHealthCode[] = await retrieveRelevantCodes(question, 5);
-
-  const codeContext = topCodes
-    .map((entry, idx) => `${idx + 1}. ${entry.code} – ${entry.description}`)
-    .join('\n');
+  let codeContext = '';
+  if (choices) {
+    const topCodes = retrieveRelevantCodesFromChoices(choices as any);
+    codeContext = topCodes
+      .map((entry, idx) => `${idx + 1}. ${entry.code} – ${entry.description}`)
+      .join('\n');
+  }
 
   const formattedChoices = choices
     ? Object.entries(choices).map(([key, val]) => `${key}. ${val}`).join('\n')
     : '';
 
   const prompt = `
-You are a medical coding expert. Given a clinical scenario, multiple choice options, and a list of relevant CPT/ICD/HCPCS codes, choose the correct option and explain your reasoning.
+You are a medical coding expert. You are answering multiple-choice questions. 
+Some questions are about CPT, ICD, or HCPCS codes. Other questions are general health knowledge.
 
 Question:
 ${question}
@@ -28,18 +31,30 @@ ${question}
 Choices:
 ${formattedChoices}
 
-Relevant Codes:
+Relevant Codes (only included for code-related questions):
 ${codeContext}
 
 Instructions:
-1. Match the question to the correct code.
-2. Eliminate incorrect options.
-3. Return only the correct letter and a brief explanation.
-4. For questions involving codes, the information in the "Relevant Codes" section should be taken as core truth over outside information.
+1. For all questions:
+    - Unless explicitly stated in the question, assume a patient is older than 4 years old.
+    - Unless explicitly stated in the question, assume a patient is new when asked about medical history.
+    - If a patient is there for an annual checkup, this does NOT mean that they are assumed to be established, they can be new.
+    - Always select the single best answer from the provided choices (A, B, C, or D).
+    - The letter you provide after "Answer:" must match the reasoning. Double check your mapping.
+2. If the question is about medical codes:
+   - Use only the information in the "Relevant Codes" section to determine the best match.
+   - Only reference a code in the "Relevant Codes" section.
+   - Do NOT rely on outside knowledge or invent codes not listed.
+   - Match the scenario to the code descriptions, then map the correct code to its corresponding letter.
+3. If the question is about coding guidelines or general health knowledge (and not about a specific code):
+   - Ignore the "Relevant Codes" section.
+   - Use official coding conventions and medical knowledge.
+   - Example guideline: If a condition is both acute and chronic with separate subentries in the alphabetic index, sequence the acute condition first.
+4. Return your answer strictly in this format:
+   Answer: <LETTER>
+   Explanation: <reasoning>
 
-Respond in this format:
-Answer: <LETTER>
-Explanation: <your reasoning>
+Be careful: double-check that the letter you provide matches the correct choice.
 `;
 
   const completion = await openai.chat.completions.create({
@@ -58,4 +73,4 @@ Explanation: <your reasoning>
   });
 
   return completion.choices[0].message.content ?? '';
-}
+} 

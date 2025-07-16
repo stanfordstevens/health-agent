@@ -27,7 +27,7 @@
   {
     "code": "50010",
     "type": "CPT",
-    "description": "Renal exploration, not necessitating other specific procedures, for diagnostic reasons."
+    "description": "Diagnostic renal angiography"
   },
   {
     "code": "31231",
@@ -72,7 +72,7 @@
   {
     "code": "99202",
     "type": "CPT",
-    "description": "An office or other outpatient visit for the evaluation and management of a new patient, with brief medical history intake, and/or the total time spent on the encounter is between 15 and 29 minutes."
+    "description": "An expanded problem-focused history and examination for new patients in an office or outpatient setting"
   },
   {
     "code": "80053",
@@ -97,7 +97,7 @@
   {
     "code": "99221",
     "type": "CPT",
-    "description": "Detailed level of history-taking and examination for patients in hospitals"
+    "description": "Modest level of history-taking and examination for patients in hospitals"
   },
   {
     "code": "99222",
@@ -117,7 +117,7 @@
   {
     "code": "99213",
     "type": "CPT",
-    "description": "Established patient office visit"
+    "description": "Expanded problem-focused history and examination for established patients"
   },
   {
     "code": "50200",
@@ -132,7 +132,7 @@
   {
     "code": "20002",
     "type": "CPT",
-    "description": "Incision and drainage of an abscess, superficial"
+    "description": "Incision and drainage of abscess of skin, subcutaneous or accessory structures; arm or leg or armpit"
   },
   {
     "code": "41115",
@@ -187,7 +187,7 @@
   {
     "code": "10080",
     "type": "CPT",
-    "description": "Incision and drainage of an abscess"
+    "description": "Incision and drainage of abscess; simple; typically near the tailbone, buttocks, or thigh"
   },
   {
     "code": "94010",
@@ -377,7 +377,7 @@
   {
     "code": "99201",
     "type": "CPT",
-    "description": "Problem-focused history and examination for routine checkups or new patients in an office or outpatient setting"
+    "description": "A limited/basic problem-focused history in an office or outpatient setting"
   },
   {
     "code": "60240",
@@ -387,16 +387,66 @@
   {
     "code": "99381",
     "type": "CPT",
-    "description": "Comprehensive preventive medicine evaluation and management for new patients"
+    "description": "Comprehensive preventive medicine evaluation and management for new patients older than 4 years old"
   },
   {
     "code": "20005",
     "type": "CPT",
-    "description": "Incision and drainage of soft tissue abscess, leg or ankle; superficial"
+    "description": "Incision and drainage of soft tissue hematoma, leg, ankle, or upper arm; superficial"
   },
   {
     "code": "99212",
     "type": "CPT",
-    "description": "An office visit of an established patient, more detailed history taking"
+    "description": "Established patient office visit"
+  },
+  {
+    "code": "99215",
+    "type": "CPT",
+    "description": "Comprehensive history for established patients"
+  },
+  {
+    "code": "99391",
+    "type": "CPT",
+    "description": "Comprehensive preventive medicine evaluation and management for established patients"
+  },
+  {
+    "code": "99382",
+    "type": "CPT",
+    "description": "Comprehensive preventive medicine evaluation and management for new patients aged 1 to 4 years old"
+  },
+  {
+    "code": "99392",
+    "type": "CPT",
+    "description": "Comprehensive preventive medicine evaluation and management for established patients aged 1 to 4 years old"
+  },
+  {
+    "code": "00102",
+    "type": "CPT",
+    "description": "Anesthesia during eyelid surgeries"
+  },
+  {
+    "code": "00145",
+    "type": "CPT",
+    "description": "Anesthesia during facial nerve surgeries"
+  },
+  {
+    "code": "00148",
+    "type": "CPT",
+    "description": "Anesthesia during neck surgeries"
+  },
+  {
+    "code": "99203",
+    "type": "CPT",
+    "description": "Detailed history in an office or outpatient setting"
+  },
+  {
+    "code": "99204",
+    "type": "CPT",
+    "description": "Comprehensive history in an office or outpatient setting for new patients"
+  },
+  {
+    "code": "10060",
+    "type": "CPT",
+    "description": "Incision and drainage of abscess; simple or single"
   }
 ]

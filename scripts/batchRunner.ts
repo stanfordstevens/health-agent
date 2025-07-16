@@ -32,6 +32,7 @@ async function runBatch() {
 
     const promises = chunk.map(async (question) => {
       try {
+        // Pass both text and choices to runAgent which now handles relevant code lookup itself
         const response = await runAgent(question.text, question.choices);
         return {
           number: question.number,
