@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { runAgent } from './agent';
 import dotenv from 'dotenv';
+
 dotenv.config();
 
 const CONCURRENCY_LIMIT = 5;
@@ -32,7 +33,6 @@ async function runBatch() {
 
     const promises = chunk.map(async (question) => {
       try {
-        // Pass both text and choices to runAgent which now handles relevant code lookup itself
         const response = await runAgent(question.text, question.choices);
         return {
           number: question.number,

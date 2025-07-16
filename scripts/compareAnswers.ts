@@ -37,6 +37,7 @@ function compareAnswers(resultsPath: string, answersPath: string, outputPath: st
     const expected = answerMap.get(result.number);
     const isCorrect = predicted === expected;
     if (isCorrect) correct++;
+
     return {
       number: result.number,
       predicted,
